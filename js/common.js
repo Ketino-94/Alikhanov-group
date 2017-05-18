@@ -9,8 +9,21 @@ $(function() {
 	  dots: false,
 	});
 
-	$('.logo').addClass('animated zoomIn');
-	$('.toggle-menu').hover(function(){
-		$(this).addClass('animated swing');
-	});
+
+	function bodyStyle() {
+		var x=1 
+		return function() {
+		return $("header").css('background-position', x++ +"px " + " 0px")
+	}} 
+	setInterval(bodyStyle(), 50);
+
+	setTimeout(function(){
+		$('.logo-style').css({ 
+			"top":"100px", 
+			"left": "0",
+			"opacity": "0" });
+		$('.logo').css({ 
+			"opacity": "1" });
+		
+	}, 900)
 });
