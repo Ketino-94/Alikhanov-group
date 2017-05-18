@@ -19,11 +19,11 @@ $(function() {
 
 	setTimeout(function(){
 		$('.logo-style').css({ 
-			"top":"100px", 
+			"top":"110px", 
 			"left": "0",
 			"opacity": "0" });
 		$('.logo').css({ 
 			"opacity": "1" });
 		
-	}, 900)
+	}, 0)
 });

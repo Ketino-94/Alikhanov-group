@@ -7,14 +7,12 @@ body { width: 100%; margin: 0; overflow-x: hidden; }
 .header { background: #0e0e0e url("../img/bg-header.png") 1px 0; background-size: 100%; max-width: 100%; height: 100%; padding-top: 40px; position: relative; -webkit-transition: all 0.5s linear; transition: all 0.5s linear; }
 .header .container { max-width: 1680px; margin: 0 auto; padding: 0; position: relative; }
 .header .container .text-logo { color: #fff; font-size: 24px; width: 210px; }
-.header .container .logo { padding-top: 50px; margin-bottom: 50px; opacity: 0; -webkit-transition: all 3s 0.1s linear; transition: all 3s 0.1s linear; }
+.header .container .logo { padding-top: 50px; margin-bottom: 50px; opacity: 0; -webkit-transition: all 2s 0.5s linear; transition: all 2s 0.5s linear; }
 .header .container .logo a { display: block; }
 .header .container .toggle-menu { position: absolute; top: 35px; right: 75px; width: 46px; height: 31px; cursor: pointer; }
 .header .container .toggle-menu span { display: block; background: #fff; width: 46px; height: 7px; margin-bottom: 5px; }
 .header .container .toggle-menu:hover { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
-.header .container .logo-style { font-size: 100px; font-weight: bold; position: absolute; top: 60%; left: 50%; height: 0px; -webkit-transition: all 0.5s linear; transition: all 0.5s linear; }
-.header .container .logo-style a { color: #fff; }
-.header .container .logo-style a:hover { text-decoration: none; }
+.header .container .logo-style { font-size: 120px; font-weight: bold; position: absolute; bottom: 0px; left: 80%; height: 0px; -webkit-transition: all 1s linear; transition: all 1s linear; }
 
 .header:after { content: ""; position: absolute; background: #ff5a09; width: 15px; height: 200px; top: 0px; right: 0px; }
 
