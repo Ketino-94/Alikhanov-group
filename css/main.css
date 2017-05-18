@@ -1,0 +1,39 @@
+p { margin: 0; padding: 0; }
+
+h2, h3 { margin: 0; }
+
+body { width: 100%; margin: 0; }
+
+.header { background: #0e0e0e url("../img/bg-header.png") 1px 0; background-size: 100%; max-width: 100%; height: 100%; padding-top: 40px; position: relative; -webkit-transition: all 20s ease-in; transition: all 20s ease-in; }
+.header .container { max-width: 1680px; margin: 0 auto; padding: 0; }
+.header .container .text-logo { color: #fff; font-size: 24px; width: 210px; }
+.header .container .logo { padding-top: 50px; margin-bottom: 50px; -webkit-animation-duration: 2s; animation-duration: 2s; }
+.header .container .logo a { display: block; }
+.header .container .toggle-menu { position: absolute; top: 35px; right: 75px; width: 46px; height: 31px; cursor: pointer; }
+.header .container .toggle-menu span { display: block; background: #fff; width: 46px; height: 7px; margin-bottom: 5px; }
+.header .container .toggle-menu:hover { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+.header:after { content: ""; position: absolute; background: #ff5a09; width: 15px; height: 200px; top: 0px; right: 0px; }
+
+.header:hover { background-position: -6000px 0; }
+
+.main { padding-top: 80px; }
+.main .container { max-width: 1680px; margin: 0 auto; padding: 0; }
+.main .container .text-box { width: 550px; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 3s; animation-delay: 3s; }
+.main .container .text-box h2 { text-transform: uppercase; font-size: 48px; color: #00303f; }
+.main .container .text-box p { font-size: 24px; color: #00303f; line-height: 28px; margin-top: 10px; }
+.main .container .main-autoplay { margin-top: 90px; color: #00303f; margin-bottom: 160px; }
+.main .container .main-autoplay .slick-slide { margin-right: 30px; }
+.main .container .main-autoplay .slick-slide h3 { text-transform: uppercase; font-size: 16px; padding: 13px 0; }
+.main .container .main-autoplay .slick-slide p { font-size: 14px; line-height: 20px; }
+.main .container .slick-arrow { border: none; position: absolute; top: 50%; text-indent: -99999px; }
+.main .container .slick-prev { background: url("../img/arrow-prev.png") no-repeat; width: 24px; height: 64px; left: -60px; }
+.main .container .slick-next { background: url("../img/arrow-next.png") no-repeat; width: 24px; height: 65px; right: -25px; }
+.main .main-brainds .case-box { padding: 0; position: relative; background: #000; }
+.main .main-brainds .case-box a { display: block; }
+.main .main-brainds .mask { width: 100%; height: 100%; position: absolute; overflow: hidden; top: 0; left: 0; }
+.main .main-brainds .mask h3 { position: absolute; top: 45%; left: 60px; text-align: center; color: #fefefe; font-size: 48px; text-transform: uppercase; -webkit-transform: scale(0, 0); -ms-transform: scale(0, 0); transform: scale(0, 0); -webkit-transition: -webkit-transform 0.3s 0.1s ease-in, opacity 0.1s ease-in-out; transition: transform 0.3s 0.1s ease-in, opacity 0.1s ease-in-out; }
+.main .main-brainds .case-box:hover .mask { opacity: 1; }
+.main .main-brainds .case-box:hover .mask h3 { opacity: 1; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); cursor: pointer; z-index: 2; }
+.main .main-brainds .case-box:hover:after { height: 100%; }
+.main .main-brainds .case-box:after { content: ""; position: absolute; background: rgba(163, 18, 14, 0.7); width: 100%; height: 0px; bottom: 0; left: 0; -webkit-transition: height 0.5s ease 0s; transition: height 0.5s ease 0s; z-index: 1; }
